@@ -1,3 +1,8 @@
+//This script is used to deploy your smart contracts to the Ethereum blockchain. It typically connects to your Ethereum node, compiles your contracts, and then deploys them using a specified wallet.
+
+//Replace "YOUR_PRIVATE_KEY" with your Ethereum wallet's private key and "RECIPIENT_ADDRESS" with the address you want to mint tokens to. Adjust the provider URL to connect to your Ethereum node.
+
+
 const { ethers } = require('ethers');
 const fs = require('fs');
 
