@@ -1,3 +1,5 @@
+//This script is used to mint tokens after the contract has been deployed. It connects to the Ethereum node, loads the deployed contract using its address, and then calls the minting function to create new tokens.
+
 const { ethers } = require('ethers');
 const fs = require('fs');
 
