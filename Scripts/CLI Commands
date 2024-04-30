@@ -1,0 +1,23 @@
+#!/bin/bash
+
+# Install Solana CLI
+sh -c "$(curl -sSfL https://release.solana.com/v1.18.1/install)"
+
+# Create a Solana Wallet
+solana-keygen new
+
+# Check Wallet Public Key
+echo "Your wallet public key is:"
+solana-keygen pubkey <path_to_your_keypair_file>
+
+# Install SPL Token CLI
+npm install -g spl-token-cli
+
+# Create Token Account
+spl-token create-account <token_mint_address>
+
+# Mint Tokens
+spl-token mint <token_mint_address> <amount> <token_account_address> --owner <your_wallet_public_key>
+
+# Transfer Tokens
+spl-token transfer <token_mint_address> <amount> <sender_token_account_address> --owner <sender_wallet_public_key> --to <recipient_token_account_address>
