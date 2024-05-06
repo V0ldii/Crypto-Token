@@ -64,19 +64,3 @@ This project aims to create a blockchain and cryptocurrency similar to Bitcoin u
 4. Interact with the blockchain using provided scripts in the `scripts/` directory.
 
 ## Documentation
-
-- **Whitepaper:** Read the [project whitepaper](docs/whitepaper.md) for a detailed overview of the project's design and functionality.
-- **Setup Instructions:** Refer to the [setup instructions](docs/setup.md) for detailed steps to set up the project environment.
-- **Usage Guidelines:** Learn how to use the project's features by reading the [usage guidelines](docs/usage.md).
-
-## Contributing
-
-Contributions to the project are welcome! Please refer to the [contributing guidelines](CONTRIBUTING.md) for more information.
-
-## License
-
-This project is licensed under the [MIT License](LICENSE).
-
----
-
-Feel free to customize this README file according to your specific project details and requirements.
