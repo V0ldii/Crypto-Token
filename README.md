@@ -17,6 +17,9 @@ This project aims to create a blockchain and cryptocurrency similar to Bitcoin u
 - **Wallet Integration:** Interact with the blockchain using Solana wallets and command-line tools.
 - **Documentation:** Detailed documentation including whitepaper, setup instructions, and usage guidelines.
 
+
+Visual Representation of the Transactions using my Token: https://solscan.io/token/AGXRv4JwBWLDRrKAUvAtXjF8Ld2cr4yPDzRQVsFEqJxE
+
 ## Setup
 
 ### Prerequisites
