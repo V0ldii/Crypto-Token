@@ -1,6 +1,4 @@
-Sure! Below is a detailed README file for your blockchain and cryptocurrency project:
 
----
 
 # Crypto Token Using Solana Blockchain
 
